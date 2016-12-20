@@ -88,8 +88,14 @@ else ifneq ($(CONFIG_DTS_TARGET),"")
         dtb-$(CONFIG_MACH_MSM8974_G3_TMO_US)  += msm8974pro-ac-g3-tmo_us.dtb
         dtb-$(CONFIG_MACH_MSM8974_G3_SPR_US)  += msm8974pro-g3-spr_us.dtb
         dtb-$(CONFIG_MACH_MSM8974_G3_SPR_US)  += msm8974pro-ac-g3-spr_us.dtb
+        dtb-$(CONFIG_MACH_MSM8974_G3_CMCC_CN)  += msm8974pro-g3-cn.dtb
+        dtb-$(CONFIG_MACH_MSM8974_G3_CMCC_CN)  += msm8974pro-ac-g3-cn.dtb
         dtb-$(CONFIG_MACH_MSM8974_G3_CTC_CN)  += msm8974pro-g3-cn.dtb
         dtb-$(CONFIG_MACH_MSM8974_G3_CTC_CN)  += msm8974pro-ac-g3-cn.dtb
+        dtb-$(CONFIG_MACH_MSM8974_G3_CUCC_CN)  += msm8974pro-g3-cn.dtb
+        dtb-$(CONFIG_MACH_MSM8974_G3_CUCC_CN)  += msm8974pro-ac-g3-cn.dtb  		
+        dtb-$(CONFIG_MACH_MSM8974_G3_OPEN_HK)  += msm8974pro-g3-cn.dtb
+        dtb-$(CONFIG_MACH_MSM8974_G3_OPEN_HK)  += msm8974pro-ac-g3-cn.dtb  		
         dtb-$(CONFIG_MACH_MSM8974_G3_GLOBAL_COM)  += msm8974pro-g3-global_com.dtb
         dtb-$(CONFIG_MACH_MSM8974_G3_GLOBAL_COM)  += msm8974pro-ac-g3-global_com.dtb
         dtb-$(CONFIG_MACH_MSM8974_G3_CA)  += msm8974pro-g3-ca.dtb
